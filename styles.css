@@ -1,0 +1,112 @@
+body {
+    background-color: #f7eff3;
+}
+
+.navbar-brand {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 80px;
+}
+
+.img {
+    width: 100%;
+}
+
+.img2 {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.img3 {
+    width: 100%;
+    display: block;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tombol {
+    position: absolute;
+    bottom: -100%;
+    /* Jarak dari bawah */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0);
+    /* Opsional: tambahkan latar belakang transparan */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tombol2 {
+    position: absolute;
+    bottom: -220%;
+    /* Jarak dari bawah */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0);
+    /* Opsional: tambahkan latar belakang transparan */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tombol3 {
+    position: absolute;
+    bottom: -320%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tombol4 {
+    position: absolute;
+    bottom: -870%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tombol5 {
+    position: absolute;
+    bottom: -535%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tombol6 {
+    position: absolute;
+    bottom: -110%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.discover {
+    color: black;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 177.78%;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 100%;
+    border-radius: 50px;
+}
